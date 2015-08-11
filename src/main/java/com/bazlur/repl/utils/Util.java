@@ -7,7 +7,6 @@ public class Util {
     private static final Logger LOGGER = LoggerFactory.getLogger(Util.class);
 
     public static void exitSystem() {
-        LOGGER.info("Program terminating ...");
         LOGGER.info("Program has been terminated");
         System.exit(0);
     }

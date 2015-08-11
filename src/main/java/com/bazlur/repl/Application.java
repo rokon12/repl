@@ -20,8 +20,7 @@ public class Application {
             LOGGER.info("File doesn't exist");
             Util.exitSystem();
         } else {
-            new Repl().init();
+            new Repl().init(args[0]);
         }
     }
-
 }
